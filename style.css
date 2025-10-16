@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.light h1{
+    background-color: #14213d;
+    color: #ffffff;
+}
+.light .choice:hover{
+    background-color: #000000;
+}
+.light #msg{
+    background-color: #14213d;
+    color: #e5e5e5;
+}
+.light .theme{
+    background-color: #14213d;
+    color: #e5e5e5;
+}
+.light .reset{
+    background-color: #14213d;
+    color: #e5e5e5;
+}
+
+.dark{
+    background-color: #000000;
+    color: #e5e5e5;
+}
+.dark h1{
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+.dark .choice:hover{
+    background-color: #ffffff;
+}
+.dark #msg{
+    background-color: #ffffff;
+    color: #000000;
+}
+.dark .theme{
+    background-color: #ffffff;
+    color: #000000;
+}
+.dark .reset{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+img{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.result{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#user-score, #computer-score{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#msg{
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.theme{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.reset{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
