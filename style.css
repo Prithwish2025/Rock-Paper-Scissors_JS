@@ -140,3 +140,68 @@ img{
     border-radius: 1rem;
     cursor: pointer;
 }
+
+@media (max-width: 450px) {
+    h1{
+        font-size: 1.25rem;
+        padding: 12px;
+    }
+
+    .choices{
+        flex-direction: row; /* keep icons parallel */
+        justify-content: space-around;
+        gap: 12px;
+        margin-top: 24px;
+        padding: 0 8px;
+    }
+
+    .choice{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .choice:hover{
+        opacity: 0.85;
+    }
+
+    img{
+        height: 72px;
+        width: 72px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .result{
+        margin-top: 28px;
+        gap: 12px;
+        font-size: 1.25rem;
+    }
+
+    #user-score, #computer-score{
+        font-size: 1.8rem;
+    }
+
+    .msg-container{
+        margin-top: 12px;
+        padding: 0 8px;
+    }
+
+    #msg{
+        font-size: 1rem;
+        padding: 8px;
+        border-radius: 0.75rem;
+    }
+
+    .btn{
+        margin-top: 12px;
+    }
+
+    .theme, .reset{
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+}
